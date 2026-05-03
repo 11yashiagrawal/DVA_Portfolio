@@ -26,7 +26,7 @@ A modern, responsive, and beautifully designed web portfolio built with React an
 
 1. Clone the repository:
    ```bash
-   git clone (https://github.com/11yashiagrawal/DVA_Portfolio.git)
+   git clone https://github.com/11yashiagrawal/DVA_Portfolio.git
    cd DVA_Portfolio
    ```
 
