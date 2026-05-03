@@ -1,0 +1,119 @@
+.main-content {
+    flex-grow: 1;
+    min-width: 0;
+  }
+  
+  .main-header {
+    border-bottom: 1px solid var(--card-border);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .projects-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .folder-icon {
+    color: var(--text-secondary);
+  }
+  
+  .badge {
+    background-color: var(--card-border);
+    color: var(--text-primary);
+    padding: 0.1rem 0.5rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .filters-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    min-width: 200px;
+    background-color: var(--bg-color);
+    border: 1px solid var(--card-border);
+    color: var(--text-primary);
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius-sm);
+    font-family: inherit;
+    font-size: 0.9rem;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(47, 129, 247, 0.3);
+  }
+  
+  .filter-buttons {
+    display: flex;
+    background-color: transparent;
+    border-radius: var(--border-radius-sm);
+    overflow: hidden;
+    border: 1px solid var(--card-border);
+  }
+  
+  .filter-btn {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    border: none;
+    border-right: 1px solid var(--card-border);
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+  }
+  
+  .filter-btn:last-child {
+    border-right: none;
+  }
+  
+  .filter-btn:hover {
+    background-color: var(--card-border);
+  }
+  
+  .filter-btn.active {
+    background-color: var(--accent-color);
+    color: white;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  @media (max-width: 600px) {
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .empty-state {
+    padding: 3rem;
+    text-align: center;
+    border: 1px dashed var(--card-border);
+    border-radius: var(--border-radius-md);
+  }
+  
+  .empty-state p {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+  }
+  
+  .clear-btn {
+    background: none;
+    border: none;
+    color: var(--accent-color);
+    text-decoration: underline;
+  }
+  
