@@ -43,8 +43,8 @@ const ProjectModal = ({ project, onClose }) => {
         
         <div className="modal-footer">
           <button className="btn-cancel" onClick={onClose}>Close</button>
-          <a href={project.liveLink} target="_blank" rel="noreferrer" className="btn-live">
-            View Live <ExternalLink size={16} />
+          <a href={project.viewCaseStudy} target="_blank" rel="noreferrer" className="btn-live">
+            View Case Study <ExternalLink size={16} />
           </a>
         </div>
       </div>
