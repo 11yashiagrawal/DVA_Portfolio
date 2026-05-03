@@ -8,7 +8,7 @@ export const projects = [
         longDesc: "Analyzed 10,000+ Airbnb listings across multiple U.S. cities to identify key drivers of revenue and occupancy using KPI-based data analysis.\n\nConducted EDA on pricing, host segmentation, and demand patterns to uncover actionable insights. Built an interactive dashboard to monitor performance and support data-driven pricing and revenue optimization strategies.",
         image: "/assets/AirBnB.png",
         tool: "Excel",
-        liveLink: "https://github.com/11yashiagrawal/SectionD_Group18_U.S.-Airbnb-Open-Data"
+        viewCaseStudy: "https://drive.google.com/file/d/18rlfXkFIOUo94H22371OGGLX9zsxPDew/view?usp=sharing"
     },
     {
       id: 2,
@@ -19,6 +19,6 @@ export const projects = [
       longDesc: "A comprehensive data project analyzing 250,000+ records of trending videos to identify what drives virality and increases the probability of a video trending in India.\n\nThe analysis uncovered that evening uploads (6–9 PM) perform best in India, faster time-to-trend correlates with higher virality, and early like ratios predict long-term performance. Created using Python for EDA and Tableau for interactive executive dashboards.",
       image: "/assets/Youtube.png",
       tool: "Python, Tableau",
-      liveLink: "https://github.com/pankaj-cod/SectionD_Team16_YoutubeTrending"
+      viewCaseStudy: "https://drive.google.com/file/d/1rw4Xgvp57-bO-w1PLXh1cpvqaZpLQDDv/view?usp=sharing"
     }
   ];
